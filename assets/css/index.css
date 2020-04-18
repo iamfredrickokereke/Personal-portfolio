@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300&display=swap');
+
+
+/* General style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    
+    
+
+}
+::before, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+}
+.section{
+    background-color: rgb(236, 200, 200);
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: block;
+    padding: 0 30px;
+
+
+}
+
+.main-content{
+    padding-left: 270px;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;   
+}
+
+.shadow-dark{
+    -webkit-box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px red;
+}
+
+
+/* Aside section styles */
+
+.aside{
+    width: 270px;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    color: rgb(255, 235, 205);
+    border-right: 1px solid rgb(122, 62, 62);
+    padding: 30px;
+    
+}
+
+.aside .logo{
+    
+    padding: 30px 0;
+}
+
+.aside .logo a{
+    font-size: 30px;
+    color: seashell;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;    
+    position: relative;
+    padding: 0 10px;
+    line-height: 50px;
+    
+}
+
+.aside .logo a::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+}
+
+.aside .logo a::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.aside .nav-toggler{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(122, 62, 62);
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    top: 30px;
+    z-index: 11;
+    border-radius: 5px;
+    background-color: seashell;
+    /* display: -ms-flexbox;
+    display: flex; */
+    display: none;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/* content{
+    background-image: image("../imgs/work.jpg");
+    background-size: cover;
+    
+} */
+.aside .nav-toggler span{
+    height: 2px;
+    width: 16px;
+    display: inline-block;
+    position: relative;
+}
+
+.aside .nav-toggler span::before{
+    content: '';
+    height: 2px;
+    width: 18px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.aside .nav-toggler span::after{
+    content: '';
+    height: 2px;
+    width: 18px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.aside .nav-toggler span{
+    background-color: red;
+}
+.aside .nav-toggler span, aside .nav-toggler span::before, aside .nav-toggler span::after {
+    background-color: red;
+}
+.aside nav{
+    list-style: none;
+    padding: 0;
+    margin: 100px 0;
+}
+.aside nav li {
+    display: block;
+}
+.aside nav li a{
+    display: block;
+    font-size: 16px;
+    color: seashell;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(122, 62, 62);
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    text-transform: capitalize;
+
+}
+.aside nav li a:hover{
+    padding-left: 5px;
+    color: red;
+
+}
+.aside nav li a.active{    
+    color: red;
+}
+.aside nav li a:not(.active):hover{
+    padding-left: 5px;
+}
+
+.aside nav li a .fa{
+    margin-right: 10px;
+}
+
+
+
+.aside .copyright-text{
+    font-size: 9px;
+    color: rgb(236, 200, 200);
+}
+
+/* Home section styles */
+
+
+.home{
+    min-height: 100vh;
+}
+
+.home .intro {
+    text-align: center;
+}
+
+.home .intro img {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 8px solid white;
+}
+
+.home .intro h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: red;
+    margin: 20px 0 5px;
+}
+
+.home .intro p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: red;
+    margin: 0px;
+    line-height: 22px;
+
+}
+
+.home .intro .social{
+    margin-top: 28px;
+}
+
+.home .intro .social a{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(44, 37, 37);
+    margin: 0 4px;
+    text-decoration: none;
+    border-radius: 50%;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+
+}
+
+.home .intro .social a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
