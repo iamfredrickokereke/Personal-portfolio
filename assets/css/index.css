@@ -233,45 +233,10 @@ body{
     margin: 20px 0 5px;
 }
 
-.home .intro p{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: sans-serif;
-    color: red;
-    margin: 0px;
-    line-height: 22px;
-
-}
-
-.home .intro .social{
-    margin-top: 28px;
-}
-
-.home .intro .social a{
-    height: 35px;
-    width: 35px;
-    display: inline-block;
-    line-height: 35px;
-    text-align: center;
-    color: rgb(44, 37, 37);
-    margin: 0 4px;
-    text-decoration: none;
-    border-radius: 50%;
-    -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3 ease-in-out;
-
-}
-
-.home .intro .social a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-
-}
-
 
 header{
     height: 100vh;
-    background: url('./images/brown-and-pink-keychain-1111318.jpg');
+    background: url('../imgs/work.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
