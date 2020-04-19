@@ -144,14 +144,6 @@ body{
 
 /* Home section styles */
 
-
-.home{
-    min-height: 100vh;
-}
-
-
-
-
 header{
     height: 100vh;
     background: url('../imgs/work.jpg');
