@@ -267,3 +267,61 @@ body{
     transform: scale(1.1);
 
 }
+
+
+header{
+    height: 100vh;
+    background: url('./images/brown-and-pink-keychain-1111318.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+}
+
+.about{
+    height: 100vh;
+    background-color: brown;
+}
+
+.portfolio{
+    height: 100vh;
+    background-color: rgb(185, 231, 18);
+}
+
+.contact{
+    height: 100vh;
+    background-color: rgb(58, 128, 81);
+}
+
+.short{
+    height: 50vh;
+}
+
+
+.up {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: cyan;
+    font-size: 2rem;
+    margin: auto;
+}
