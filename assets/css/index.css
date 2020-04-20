@@ -3,6 +3,22 @@
 
 /* General style */
 
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  body {
+    scrollbar-width: thick;
+    scrollbar-color: maroon;
+    scroll-padding: 20px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #351b1b;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #351b1b ;
+    border-radius: 15px;
+    border: 10px solid rgb(238, 8, 8);
+  }
 *{
     margin: 0;
     padding: 0;
@@ -264,6 +280,6 @@ footer{
      font-size: 2rem;
 }
 .about .portfolio{
-    margin-top: 20px;
+    height: 50vh;
 }
   }
