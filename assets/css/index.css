@@ -150,28 +150,24 @@ header{
 
 h1{
     font-size: 80px;
-    color: white;
+    color: rgb(248, 170, 170);
 }
 
 .about{
     height: 100vh;
     background-color: rgb(44, 40, 40);
+    margin-bottom: -80px;
 }
 
 .portfolio{
-    height: 200vh;
     background-color: rgb(44, 40, 40);
 }
 
-.contact{
-    height: 100vh;
-    background-color: rgb(44, 40, 40);
-}
 
 .short{
-    height: 50vh;
+    height: 80vh;
     text-justify: inter-word;
-    padding: 20px;
+    padding: 10px 20px;
     
 }
 
@@ -179,11 +175,16 @@ h1{
     text-align: center;
 }
 
-
+.hobby{
+    margin-top: 20px;
+}
 .skills-section{
     margin-top: 30px;
     padding-top: 40px;
     background-color: inherit;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
     
 
 }
@@ -193,6 +194,10 @@ h1{
     font-weight: 400;
     font-size:40px;
     padding-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+   
 }
 
 .skills-box{
