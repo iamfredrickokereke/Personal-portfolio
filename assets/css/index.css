@@ -121,6 +121,10 @@ body{
 
 /* Home section styles */
 
+.home{
+    background-color: black;
+}
+
 .main-container{
     padding-left: 270px;
     color: rgb(238, 139, 139);
@@ -177,6 +181,8 @@ h1{
 
 .skills-section{
     margin-top: 30px;
+    padding-top: 40px;
+    background-color: inherit;
     
 
 }
@@ -190,17 +196,13 @@ h1{
 
 .skills-box{
     padding:10px;
-    border: 3px solid #ff008a;
+    border: 3px solid #13080e;
     margin: 10px 0px;
     text-align: center;
     font-size: 20px;
 }
 
-.skills-box:hover{
-    background: #ff008a;
-    
 
-}
 
 /* Contact Section */
 .contact-section{
@@ -225,14 +227,14 @@ h1{
 }
 
 .form-group input[type=submit]{
-    background: #ff008a;
+    
     color:#fff;
     font-size:14px;
 }
 
 
 footer{
-    /* padding:15px; */
+    padding:15px;
     width:100%;
     text-align: center;
     margin-top: 70px;
@@ -245,7 +247,6 @@ footer{
 
 .footer-links a{
     text-decoration: none;
-    color:#ff008a;
     text-align:center;
     padding-left: 10px;
 }
