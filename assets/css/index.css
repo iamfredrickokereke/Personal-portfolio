@@ -128,10 +128,10 @@ body{
 .main-container{
     padding-left: 270px;
     color: rgb(238, 139, 139);
-    font-weight: 200;
+    /* font-weight: 200; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-  text-justify: distribute-all-lines;
+    background-color: black;
 }
 
 header{
