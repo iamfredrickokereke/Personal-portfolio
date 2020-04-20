@@ -78,10 +78,11 @@ body{
 .aside nav{
     list-style: none;
     padding: 0;
-    margin: 100px 0;
+    margin: 80px 0;
 }
 .aside nav li {
     display: block;
+    padding-bottom: 20px;
 }
 .aside nav li a{
     display: block;
@@ -249,4 +250,6 @@ footer{
     text-align:center;
     padding-left: 10px;
     color: maroon;
+    text-transform: lowercase;
+    text-decoration: underline;
 }
